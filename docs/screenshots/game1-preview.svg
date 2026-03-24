@@ -1,0 +1,66 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b1c12"/>
+      <stop offset="1" stop-color="#120c08"/>
+    </linearGradient>
+    <linearGradient id="panel2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffaf2"/>
+      <stop offset="1" stop-color="#f2dfbd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg2)"/>
+  <rect x="180" y="72" width="920" height="576" rx="28" fill="url(#panel2)" stroke="#d3b27d"/>
+  <text x="220" y="128" fill="#442717" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">浑水摸鱼：污染区域</text>
+  <text x="220" y="166" fill="#7a5b42" font-size="18" font-family="Segoe UI, Microsoft YaHei, sans-serif">左侧拖动污染骰堆，放到右侧镜像放置区</text>
+  <rect x="220" y="196" width="500" height="400" rx="24" fill="#fbf5e8" stroke="#e1c89a"/>
+  <rect x="748" y="196" width="312" height="400" rx="24" fill="#fbf5e8" stroke="#e1c89a"/>
+  <text x="244" y="232" fill="#4f3220" font-size="24" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">污染骰堆</text>
+  <text x="772" y="232" fill="#4f3220" font-size="24" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">镜像放置区</text>
+  <g>
+    <rect x="244" y="254" width="140" height="150" rx="18" fill="#684731"/>
+    <rect x="244" y="430" width="140" height="150" rx="18" fill="#684731"/>
+    <rect x="400" y="254" width="140" height="150" rx="18" fill="#684731"/>
+    <rect x="400" y="430" width="140" height="150" rx="18" fill="#684731"/>
+    <rect x="556" y="254" width="140" height="150" rx="18" fill="#684731"/>
+    <rect x="556" y="430" width="140" height="150" rx="18" fill="#684731"/>
+  </g>
+  <g fill="#fff8ed" stroke="#d6b585" stroke-width="4">
+    <rect x="278" y="290" width="30" height="30" rx="6"/>
+    <rect x="317" y="305" width="30" height="30" rx="6"/>
+    <rect x="434" y="290" width="30" height="30" rx="6"/>
+    <rect x="473" y="305" width="30" height="30" rx="6"/>
+    <rect x="590" y="290" width="30" height="30" rx="6"/>
+    <rect x="629" y="305" width="30" height="30" rx="6"/>
+    <rect x="278" y="466" width="30" height="30" rx="6"/>
+    <rect x="434" y="466" width="30" height="30" rx="6"/>
+    <rect x="473" y="481" width="30" height="30" rx="6"/>
+    <rect x="590" y="466" width="30" height="30" rx="6"/>
+    <rect x="629" y="481" width="30" height="30" rx="6"/>
+  </g>
+  <g fill="#2a1a11" font-size="24" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">
+    <text x="344" y="380">2</text>
+    <text x="500" y="380">2</text>
+    <text x="656" y="380">3</text>
+    <text x="344" y="556">1</text>
+    <text x="500" y="556">1</text>
+    <text x="656" y="556">2</text>
+  </g>
+  <g>
+    <rect x="772" y="262" width="124" height="126" rx="16" fill="#f8efdc" stroke="#d8b47d"/>
+    <rect x="912" y="262" width="124" height="126" rx="16" fill="#f8efdc" stroke="#d8b47d"/>
+    <rect x="772" y="404" width="124" height="126" rx="16" fill="#f8efdc" stroke="#d8b47d"/>
+    <rect x="912" y="404" width="124" height="126" rx="16" fill="#f8efdc" stroke="#d8b47d"/>
+  </g>
+  <g fill="#5c3822" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <text x="794" y="294" font-size="18" font-weight="700">1 点 浑水摸鱼</text>
+    <text x="934" y="294" font-size="18" font-weight="700">2 点 猜正反</text>
+    <text x="794" y="436" font-size="18" font-weight="700">3 点 猜大小</text>
+    <text x="934" y="436" font-size="18" font-weight="700">4 点 基础区</text>
+    <text x="794" y="322" font-size="14">玩家1：2 枚</text>
+    <text x="794" y="346" font-size="14">干扰骰子：1 枚</text>
+    <text x="934" y="322" font-size="14">玩家2：3 枚</text>
+    <text x="794" y="464" font-size="14">玩家3：1 枚</text>
+    <text x="934" y="464" font-size="14">玩家4：2 枚</text>
+  </g>
+</svg>

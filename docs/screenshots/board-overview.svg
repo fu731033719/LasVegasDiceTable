@@ -1,0 +1,55 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4ead7"/>
+      <stop offset="1" stop-color="#e0caa3"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffaf0" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#f2e2c4" stop-opacity=".92"/>
+    </linearGradient>
+    <linearGradient id="board" x1="230" y1="84" x2="1050" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5f361f"/>
+      <stop offset="1" stop-color="#2e1a10"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="28" fill="url(#bg)"/>
+  <rect x="28" y="28" width="180" height="664" rx="28" fill="url(#panel)" stroke="#c8ac7f"/>
+  <rect x="1072" y="28" width="180" height="664" rx="28" fill="url(#panel)" stroke="#c8ac7f"/>
+  <rect x="226" y="28" width="828" height="664" rx="36" fill="url(#board)"/>
+  <rect x="246" y="48" width="788" height="624" rx="30" stroke="#f3e4c4" stroke-opacity=".35"/>
+  <text x="54" y="84" fill="#5c3722" font-size="28" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">控制面板</text>
+  <text x="1096" y="84" fill="#5c3722" font-size="28" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">玩家状态</text>
+  <text x="260" y="84" fill="#fff1d6" font-size="34" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">Las Vegas Dice Table</text>
+  <polygon points="640,198 735,250 735,362 640,414 545,362 545,250" fill="#c99a4d" stroke="#f6deb0" stroke-width="6"/>
+  <text x="585" y="296" fill="#4d311c" font-size="30" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">中央投掷区</text>
+  <g fill="#f6f0e2" stroke="#d5b177" stroke-width="4">
+    <rect x="586" y="324" width="28" height="28" rx="6"/>
+    <rect x="626" y="324" width="28" height="28" rx="6"/>
+    <rect x="666" y="324" width="28" height="28" rx="6"/>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#fff4df">
+    <text x="613" y="170">浑水摸鱼</text>
+    <text x="810" y="285">猜正反</text>
+    <text x="820" y="498">猜大小</text>
+    <text x="608" y="590">基础区</text>
+    <text x="378" y="498">基础区</text>
+    <text x="388" y="285">基础区</text>
+  </g>
+  <g fill="#e9d4ac" stroke="#f7ead0" stroke-width="4">
+    <path d="M588 122h104l26 50H562l26-50Z"/>
+    <path d="M792 238h104l26 50H766l26-50Z"/>
+    <path d="M792 450h104l26 50H766l26-50Z"/>
+    <path d="M588 566h104l26 50H562l26-50Z"/>
+    <path d="M384 450h104l26 50H358l26-50Z"/>
+    <path d="M384 238h104l26 50H358l26-50Z"/>
+  </g>
+  <g fill="#8d5c2d" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="16" font-weight="700">
+    <text x="602" y="154">40000 / 40000</text>
+    <text x="806" y="270">50000 / 30000</text>
+    <text x="806" y="482">50000 / 30000</text>
+    <text x="602" y="598">90000 / 40000</text>
+    <text x="398" y="482">80000 / 30000</text>
+    <text x="398" y="270">50000 / 50000</text>
+  </g>
+</svg>

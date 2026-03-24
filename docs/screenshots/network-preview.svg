@@ -1,0 +1,49 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#efe0c7"/>
+      <stop offset="1" stop-color="#dbc296"/>
+    </linearGradient>
+    <linearGradient id="panel3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fffaf2"/>
+      <stop offset="1" stop-color="#f2e1c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg3)"/>
+  <rect x="56" y="56" width="300" height="608" rx="26" fill="url(#panel3)" stroke="#cfb17b"/>
+  <rect x="386" y="56" width="838" height="608" rx="26" fill="url(#panel3)" stroke="#cfb17b"/>
+  <text x="86" y="106" fill="#5c3722" font-size="30" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">联机与玩家</text>
+  <text x="416" y="106" fill="#5c3722" font-size="30" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="800">多人房间体验</text>
+  <rect x="84" y="136" width="244" height="154" rx="18" fill="#fffdf8" stroke="#dfc89c"/>
+  <text x="104" y="176" fill="#4d311d" font-size="22" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">房间信息</text>
+  <text x="104" y="212" fill="#71533e" font-size="16" font-family="Segoe UI, Microsoft YaHei, sans-serif">身份：房主</text>
+  <text x="104" y="240" fill="#71533e" font-size="16" font-family="Segoe UI, Microsoft YaHei, sans-serif">房间号：ABCD1234</text>
+  <text x="104" y="268" fill="#71533e" font-size="16" font-family="Segoe UI, Microsoft YaHei, sans-serif">在线人数：4</text>
+  <rect x="84" y="320" width="244" height="316" rx="18" fill="#fffdf8" stroke="#dfc89c"/>
+  <text x="104" y="360" fill="#4d311d" font-size="22" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">玩家状态</text>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif">
+    <rect x="104" y="386" width="204" height="54" rx="14" fill="#fff4e4" stroke="#d9b178"/>
+    <text x="122" y="418" fill="#b8482d" font-size="18" font-weight="700">玩家 1</text>
+    <text x="236" y="418" fill="#6d5a4a" font-size="16">8 / 0 / 2</text>
+    <rect x="104" y="452" width="204" height="54" rx="14" fill="#eef8f7" stroke="#7cb2b5"/>
+    <text x="122" y="484" fill="#116a73" font-size="18" font-weight="700">玩家 2</text>
+    <text x="236" y="484" fill="#6d5a4a" font-size="16">6 / 2 / 1</text>
+    <rect x="104" y="518" width="204" height="54" rx="14" fill="#f8f2e4" stroke="#c9ab69"/>
+    <text x="122" y="550" fill="#8b6016" font-size="18" font-weight="700">玩家 3</text>
+    <text x="236" y="550" fill="#6d5a4a" font-size="16">5 / 3 / 2</text>
+  </g>
+  <rect x="416" y="136" width="778" height="490" rx="24" fill="#4f2f1d"/>
+  <rect x="446" y="166" width="718" height="430" rx="20" stroke="#f5e1b7" stroke-opacity=".3"/>
+  <text x="454" y="208" fill="#fff0d3" font-size="24" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-weight="700">支持房主建房、访客入座、联机同步回合与小游戏操作</text>
+  <g fill="#f0dfbe" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">
+    <text x="472" y="280">1. 房主创建房间并分享链接</text>
+    <text x="472" y="338">2. 访客加入后自主选择座位</text>
+    <text x="472" y="396">3. 玩家在自己的回合执行投掷与放置</text>
+    <text x="472" y="454">4. 小游戏结果和结算信息实时同步</text>
+  </g>
+  <g fill="#fff9ec" stroke="#d5b177" stroke-width="4">
+    <rect x="904" y="254" width="32" height="32" rx="6"/>
+    <rect x="948" y="270" width="32" height="32" rx="6"/>
+    <rect x="992" y="286" width="32" height="32" rx="6"/>
+  </g>
+</svg>
