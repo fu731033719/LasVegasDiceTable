@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Las Vegas Dice Table</title>
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <main class="table-scene table-scene-three-col">
+      <section class="info-hud">
+        <div class="hud-header">
+          <div class="hero-copy">
+            <p class="eyebrow">Las Vegas Dice Table</p>
+            <h1>Las Vegas Dice Table</h1>
+          </div>
+          <div class="hud-controls">
+            <label class="compact-field">
+              <span>玩家人数</span>
+              <select id="playerCount"></select>
+            </label>
+            <button id="rulesBtn" class="option-btn" type="button">查看规则</button>
+            <button id="newGameBtn" class="primary-btn">开始新游戏</button>
+          </div>
+        </div>
+
+        <div class="hud-grid">
+          <div class="info-card accent-fire">
+            <span>当前玩家</span>
+            <strong id="currentPlayerName">-</strong>
+          </div>
+          <div class="info-card accent-gold">
+            <span>轮次</span>
+            <strong id="roundInfo">-</strong>
+          </div>
+          <div class="info-card accent-teal">
+            <span>剩余骰子</span>
+            <strong id="diceLeftInfo">-</strong>
+          </div>
+        </div>
+
+        <div class="hud-tip-strip">
+          <div class="tip-pill">点击中央六边形即可投掷</div>
+          <div class="tip-pill">点击同点数骰子决定放置</div>
+          <div class="tip-pill">支持重摇筹码、联机座位与小游戏结算</div>
+        </div>
+
+        <div class="hud-panel">
+          <div class="hud-panel-head">
+            <div>
+              <h2>联机房间</h2>
+              <p class="panel-subtitle">房主负责建房与状态同步，访客负责选座、改名并在自己的回合完成操作。</p>
+            </div>
+            <span id="netRoleBadge" class="net-role-badge">单机</span>
+          </div>
+          <div class="network-panel">
+            <div class="network-row">
+              <span>房间标识</span>
+              <strong id="roomCodeInfo">未创建</strong>
+            </div>
+            <div class="network-row">
+              <span>同步状态</span>
+              <strong id="networkStatus">未连接</strong>
+            </div>
+            <div class="network-row">
+              <span>连接人数</span>
+              <strong id="peerCountInfo">0</strong>
+            </div>
+            <div class="network-actions">
+              <button id="createRoomBtn" class="option-btn" type="button">创建房间</button>
+              <button id="copyJoinLinkBtn" class="option-btn" type="button">复制访客链接</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hud-panel legacy-roll-panel">
+          <div class="hud-panel-head">
+            <div>
+              <h2>投掷控制</h2>
+              <p class="panel-subtitle">主交互已经迁移到棋盘中央，这里仅保留兼容性挂载点。</p>
+            </div>
+            <button id="rollBtn" class="primary-btn">投掷骰子</button>
+          </div>
+          <p id="rollHint" class="helper-text">点击“投掷骰子”开始当前玩家回合。</p>
+          <div id="groupOptions" class="group-options"></div>
+        </div>
+      </section>
+
+      <section class="board-wrap">
+        <div class="board-surface">
+          <div class="board-scene-glow board-scene-glow-a"></div>
+          <div class="board-scene-glow board-scene-glow-b"></div>
+          <div id="threeMount" class="three-mount"></div>
+          <div id="zoneInfoOverlay" class="zone-info-overlay"></div>
+        </div>
+      </section>
+
+      <aside class="players-rail">
+        <div class="hud-panel players-panel-shell">
+          <div class="hud-panel-head">
+            <div>
+              <h2>玩家状态</h2>
+              <p class="panel-subtitle">集中查看资金、剩余骰子、重摇筹码与联机座位归属。</p>
+            </div>
+          </div>
+          <div id="playersPanel" class="players-panel"></div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <p class="modal-kicker">Table Event</p>
+          <h2 id="modalTitle">小游戏</h2>
+        </div>
+        <button id="closeModalBtn" class="ghost-btn">关闭</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="logDock" class="log-dock">
+    <button id="logToggleBtn" class="log-toggle-btn" type="button">操作日志</button>
+    <div id="logWindow" class="log-window hidden">
+      <div class="log-window-head">
+        <div>
+          <p class="modal-kicker">Session Feed</p>
+          <h2>操作日志</h2>
+        </div>
+        <button id="logCloseBtn" class="ghost-btn" type="button">收起</button>
+      </div>
+      <div id="logList" class="log-list"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
